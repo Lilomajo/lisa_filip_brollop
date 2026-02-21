@@ -1,14 +1,16 @@
 body {
     margin: 0;
     background-color: rgb(252, 245, 235);
-    font-family: "Caveat Brush", Arial;
+    font-family: "Dancing Script", cursive;
 }
 
 p {
     margin-left: 50px; 
     margin-right: 50px; 
     line-height: 2.5rem;
+    font-family: "Caveat Brush", Arial;
 }
+
 
 
 ul {
@@ -27,6 +29,7 @@ ul li a {
     font-weight: bold;
     padding: 8px 16px;
     text-align: center;
+    font-size: 24px;
 }
 
 ul li a:hover {
@@ -47,12 +50,13 @@ h1, h2, p {
 
 img {
     max-width: 100%;
-    align-self: center;
     max-height: 500px;
     height: 30%;
     width: 100%;
+    max-width: 1099px;
     display: block;
     box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 0.2);
+    margin: 0 auto;
 
 }
 
@@ -64,6 +68,10 @@ img {
         padding: 0;
         background-color: rgb(252, 245, 235);
     }
+
+    ul li a {
+        font-size: 18px;
+    }
 }
 
 @media (max-height: 700px) {
@@ -71,3 +79,4 @@ img {
         font-size: 20px;
     }
 }
+
