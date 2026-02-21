@@ -1,7 +1,13 @@
 body {
     margin: 0;
     background-color: rgb(252, 245, 235);
-    font-family: "Caveat Brush", cursive;
+    font-family: "Caveat Brush", Arial;
+}
+
+p {
+    margin-left: 50px; 
+    margin-right: 50px; 
+    line-height: 2.5rem;
 }
 
 
